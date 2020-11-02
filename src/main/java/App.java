@@ -4,6 +4,7 @@ public class App {
 	
 	public static void main(String[] args) {
 		zoo = new Zoo();
+		System.out.println("Test");
 	}
 	
 	public static Zoo getZoo() {

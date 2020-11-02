@@ -1,8 +1,9 @@
 public abstract class Animal {
 
 	private String nomAnimal;
-	private TypeAnimal typeAnimal;
+	private TypeAnimal typeAnimal; 
 	
+	//TEST
 	public Animal(String nomAnimal, TypeAnimal typeAnimal) {
 		super();
 		this.nomAnimal = nomAnimal;

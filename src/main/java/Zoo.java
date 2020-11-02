@@ -3,7 +3,7 @@ import java.util.List;
 
 public class Zoo {
 
-	private int visiteurs;
+	private int visiteurs = 0;
 	private List<Secteur> secteursAnimaux = new ArrayList<Secteur>();
 	
 	private final int LIMITE_VISITEUR_PAR_SECTEUR = 10;
@@ -20,7 +20,7 @@ public class Zoo {
 	}
 	
 	public int getLimiteVisiteur(){
-		return LIMITE_VISITEUR_PAR_SECTEUR * getLimiteVisiteur();
+		return LIMITE_VISITEUR_PAR_SECTEUR * secteursAnimaux.size();
 	}
 	
 	public Secteur getSecteurFromType(TypeAnimal typeAnimal){
